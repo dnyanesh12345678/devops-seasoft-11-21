@@ -36,4 +36,4 @@ end
 | Commands              | Purpose                       |
 | --------------------- | ----------------------------  |
 | vagrant up            | Brings up the virtual machine |
-| vagrant ssh Terraform | ssh into the created machines |
+| vagrant ssh Automation| ssh into the created machines |
