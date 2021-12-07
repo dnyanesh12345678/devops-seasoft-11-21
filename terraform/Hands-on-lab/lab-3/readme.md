@@ -17,9 +17,11 @@
   * block to attach `internet gateway` with vpc
   * block to create `routing table`
   * block to create `route` for vpc (vpc cidr to be attached with internet gateway)
+  
  `output.tf` file contents :
   * blocks to output `vpc_id`
   * blocks to output `subnet_id`
+  
   `backend.tf` file contents :
   * block to push state file to s3 bucket created as part of lab2.
   * perform `terraform plan & apply` to create resource in aws
