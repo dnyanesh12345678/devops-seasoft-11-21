@@ -8,18 +8,20 @@
   * backend.tf
   * output.tf
   * terraform.tfvars
-- note : two new files `network.tf & backend.tf` is added in this branch
 
 # Terraform tasks
-- add new resource blocks in `network.tf` file to create below mentioned resources 
-  * block to create fresh `vpc` 
+`network.tf` file contents :
+  * block to create fresh `vpc`
   * block to creade three different `subnets` in same vpc
   * block to create `internet gateway`
   * block to attach `internet gateway` with vpc
   * block to create `routing table`
   * block to create `route` for vpc (vpc cidr to be attached with internet gateway)
+ `output.tf` file contents :
   * blocks to output `vpc_id`
   * blocks to output `subnet_id`
+  `backend.tf` file contents :
+  * block to push state file to s3 bucket created as part of lab2.
   * perform `terraform plan & apply` to create resource in aws
 
 # Git tasks
