@@ -6,6 +6,7 @@
   * variable.tf
   * network.tf
   * backend.tf
+  * output.tf
   * terraform.tfvars
 - note : two new files `network.tf & backend.tf` is added in this branch
 
