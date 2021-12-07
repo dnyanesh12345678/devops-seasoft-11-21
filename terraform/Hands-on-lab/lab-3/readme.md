@@ -10,7 +10,7 @@
   * terraform.tfvars
 
 # Terraform tasks
-`network.tf` file contents :
+`network.tf` file contents:
   * block to create fresh `vpc`
   * block to creade three different `subnets` in same vpc
   * block to create `internet gateway`
@@ -18,11 +18,11 @@
   * block to create `routing table`
   * block to create `route` for vpc (vpc cidr to be attached with internet gateway)
   
- `output.tf` file contents :
+ `output.tf` file contents:
   * blocks to output `vpc_id`
   * blocks to output `subnet_id`
   
-  `backend.tf` file contents :
+  `backend.tf` file contents:
   * block to push state file to s3 bucket created as part of lab2.
   * perform `terraform plan & apply` to create resource in aws
 
