@@ -8,14 +8,15 @@
   * network.tf
   * backend.tf
   * output.tf
-  * backend.tf
-  * security.tf (new file)
   * terraform.tfvars
+  * security.tf (new file in this branch)
 
 # Terraform task
-- add new resource blocks in `security.tf` file to create below mentioned resources 
+`security.tf` file contents:
   * block to create `key_pair` and download the `pem` file to your local machine using `provisioner`
   * block to create `security group` with `protocol ssh` allowed
+
+`apply`
   * perform `terraform plan & apply` to create resource in aws
 
 # Git tasks
