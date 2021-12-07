@@ -24,7 +24,8 @@
   
   `backend.tf` file contents:
   * block to push state file to s3 bucket created as part of lab2.
-  * perform `terraform plan & apply` to create resource in aws
+
+- perform `terraform plan & apply` to create resource in aws
 
 # Git tasks
 - push your changes to github repo in `network` branch
