@@ -5,12 +5,12 @@
 - desired file structure
   * provider.tf
   * variable.tf
-  * s3.tf
   * network.tf
   * backend.tf
-  * security.tf
+  * output.tf
+  * backend.tf
+  * security.tf (new file)
   * terraform.tfvars
-- note : new file `network.tf` is added in this branch
 
 # Terraform task
 - add new resource blocks in `security.tf` file to create below mentioned resources 
