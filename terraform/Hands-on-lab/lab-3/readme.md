@@ -4,7 +4,6 @@
 - desired file structure
   * provider.tf
   * variable.tf
-  * s3.tf
   * network.tf
   * backend.tf
   * terraform.tfvars
