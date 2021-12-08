@@ -5,11 +5,7 @@ variable AWS_REGION {
 
 # Image IDs
 variable "AMI" {
-  type        = map
-  default     = {
-    ap-south-1 = "ami-0db0b3ab7df22e366"
-    us-east-2  = "ami-0a54aef4ef3b5f881"
-  }
+  default  = "ami-0a54aef4ef3b5f881"
 }
 
 # Security Group
