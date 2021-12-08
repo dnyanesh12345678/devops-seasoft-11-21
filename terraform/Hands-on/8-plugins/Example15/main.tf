@@ -1,9 +1,9 @@
 resource "aws_instance" "http_ec2" {
-    ami = lookup (var.AMI, var.AWS_REGION)
+    ami = var.AMI
     instance_type = "t2.micro"
     vpc_security_group_ids = [var.SG]
     tags = {Name = "WEB_SERVER"}
-    key_name = "terraform-new-key"
+    key_name = "main"
     count = 1
 
 provisioner "file" {
