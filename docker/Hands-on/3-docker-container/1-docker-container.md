@@ -34,7 +34,11 @@
 
 # create sample container through commands
    `docker pull httpd`
+   
    `docker run -t -d -p 80:80 --name myhost httpd`
+   
    `docker exec -it myhost bash`
+   
    `Create a sample html file under "htdocs"`
+   
    `Access your html file from laptop browser "localhost:80"`
