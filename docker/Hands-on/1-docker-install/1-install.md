@@ -4,7 +4,7 @@
 - install `docker desktop` which would eventually virtualize your base laptop
 - install docker on exsiting virtual machine which is running in oracle virtual box or ec2 instance
 
-# how to install docker desktp?
+# how to install docker desktop?
 - docker desktop installation on MAC
   https://docs.docker.com/docker-for-mac/install/
 - docker desktop installation on Windows
