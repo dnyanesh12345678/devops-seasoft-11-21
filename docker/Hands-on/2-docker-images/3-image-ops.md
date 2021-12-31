@@ -1,5 +1,7 @@
 # Command line options to deal with docker image
 
+Docker login from command line
+`docker login -u <docker_hub_user_id> -p <password>`
 Pull image from docker hub                  
 `docker pull centos`
 Pull specific version                      
