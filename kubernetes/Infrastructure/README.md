@@ -20,8 +20,6 @@
 - kubectl get nodes
 - kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml
 
-# Reference link : https://medium.com/swlh/setup-own-kubernetes-cluster-via-virtualbox-99a82605bfcc
-
 # Upgrade connection with nodes
 - vim /etc/systemd/system/kubelet.service.d/10-kubeadm.conf
   update file with below line: node:1 `Environment="KUBELET_EXTRA_ARGS=--node-ip=192.168.33.14"`
